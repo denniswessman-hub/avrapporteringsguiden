@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="En svensk studiemanual med arbetsgångar, skrivmallar och checklistor för DUR två, DAF och Formulärportalen.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="color-scheme" content="light">
+  <title>Avrapporteringsguiden</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./data.js" defer></script>
+  <script src="./review-engine.js" defer></script>
+  <script src="./review-ui.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Hoppa till innehållet</a>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#start" aria-label="Avrapporteringsguiden, startsida"><span class="brand-mark" aria-hidden="true">A<span>G</span></span><span>Avrapporterings<span>guiden</span></span></a>
+    <p class="sidebar-caption">STUDIESTÖD · T5</p>
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="navigation">Visa meny <span aria-hidden="true">☰</span></button>
+    <nav id="navigation" aria-label="Huvudnavigation"></nav>
+    <div class="sidebar-bottom"><span class="status-dot" aria-hidden="true"></span> Studiestöd · version 1.0.0<br><a href="#kallkritik">Källor och begränsningar</a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <form id="search-form" role="search" class="searchbox">
+        <label class="sr-only" for="search">Sök i manualen</label>
+        <span aria-hidden="true" class="search-symbol">⌕</span>
+        <input id="search" type="search" placeholder="Sök efter en uppgift, ett lagrum eller en mall…" autocomplete="off" spellcheck="false">
+        <button type="submit" class="search-submit">Sök</button>
+      </form>
+      <span class="topbar-note">DUR två / DAF / Formulärportalen</span>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="footer"><span>Avrapporteringsguiden · 1.0.0</span><span>Självständigt studiestöd · Källor kontrollerade 9 november 2026</span><button id="clear-all" class="text-button">Rensa texter och markeringar</button></footer>
+  </div>
+  <div id="notice" class="notice" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Aktivera JavaScript för sökning och navigation i manualen. Inga uppgifter skickas för analys.</p></noscript>
+</body>
+</html>

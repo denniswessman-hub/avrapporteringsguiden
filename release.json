@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "built_at": "2026-11-10T13:57:56.882Z",
+  "files": {
+    "index.html": "1c905eeef7d2a34bf9770542b4ab6b07f79383678164749d677091e75abac3e2",
+    "style.css": "d738bb8b3b7f71db3691054b20b1bb6c64a7f218a4cc801c2ab3d52e700c05c1",
+    "data.js": "a5136c4651dc2f923cc1896da330621c81243e2ee32ca3e1937e0c4b16ce6f3c",
+    "review-engine.js": "1cd5126646ea1fee7dd0dce2f25e599d566e18f89c1cc0f2a6930c4227867659",
+    "review-ui.js": "99fb2b03ff3f2dd8b9ecfdbfb15307ad634d24d7bd10dab4e26274da4bf10b69",
+    "app.js": "49129e9edfa38cff0677946fe11f8161910272ce9b7e41a4155f954f07ea540e",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
